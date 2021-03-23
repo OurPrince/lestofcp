@@ -1,0 +1,338 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'RocknRoll One', sans-serif;
+    
+    background: url(../images/cover02.png);
+    background-repeat: round;
+     
+    
+}
+
+html{
+
+    font-size: 62.5%;
+}
+.container{
+    
+        /* max-width: 1000px; */
+        /* width: 100%; */
+        margin: auto;
+
+}
+
+
+/* #################################  Navbar ###################################### */
+.navbar h1{
+    color: #ffffff;
+   
+}
+
+
+.navbar{
+    /* background:url(../images/cover02.png); */
+    height:13vh;
+    width: 151.8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-bottom: #ffffff 2px solid;
+
+    /* width: 120rem; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-items  a{
+    text-decoration: none;
+    color: #ff4600;
+    /* list-style: disc #fff; */
+    /* list-style-type:none; */
+    font-weight: 700;
+     font-size: 1.6rem;
+     padding: 1rem;
+     margin-right: 2rem;
+     transition: all 0.4s ease-in-out;
+   
+}
+  li{
+    list-style: none;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-top: 1rem;
+   
+}
+.nav-items a:hover{
+    color: #048eff;
+}
+.navbar h1 img{
+    height: 13rem;
+    width: 13rem;
+    margin-top: -2.5rem;
+}
+
+
+
+/* ------------------------------------------- side bar of cources ------------------------------------  */
+
+
+.side-bar {
+
+    height: 68rem;
+    width: 23rem;
+    background: linear-gradient(rgba(37, 37, 37, 0.060) , rgba(10 ,10 ,10 , 0.080)),  rgb(250, 250, 250);
+    z-index: 2; 
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top:9rem;
+   
+}
+
+.menu-list{
+    font-size: 1.8rem;
+    margin-left: 3rem;
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 4rem;
+  
+}
+
+.menu-items {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 2rem;
+    display: flex;
+    padding-left: 0.2rem;
+    padding-bottom: 0.8rem;
+    transition: all 0.2s ease-in-out;
+
+    
+}
+
+.menu-items:hover{
+    color: #fa7849;
+}
+.menu-list p{
+    color:#ff4600 ;}
+
+.side-bar .menu-list a img{
+        height: 1.9rem;
+        width: 1.9rem;
+        position: relative;
+        top: 0rem;
+        left: -2rem;
+        margin-bottom: -3rem;
+}
+
+
+
+.menu{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: #ff4600;
+
+}
+
+
+
+
+
+
+/* ----------------------------------list  --------------------------------  */
+
+
+
+
+
+#web-d{
+    padding: 2rem 1rem 2rem 1rem;
+    /* background: url(../images/bg.jpg); */
+}
+
+
+.food-type{
+    border: #e9e9e9 solid 2px;
+    background: #f7f7f7;
+    height: 25rem;
+    width: 55rem;
+    margin-top: 2rem;
+    box-shadow:3px 3px 10px 0px  #a1a1a1;
+}
+
+
+#web-d h2{
+    
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 3rem;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 12rem;
+    text-shadow: rgba(0, 0, 0, 0.308) 2px 2px;
+    
+}
+.Cources-container{
+    display: flex;
+   justify-content: space-around;
+}
+
+.Cources-container img{
+    display: block;
+    width: 25rem;
+    margin:0rem;
+    max-height: 300px;
+    object-fit: cover;
+    height: 23.8rem;
+}
+.image-container{
+
+    position: relative;
+    margin:0.5rem;
+    
+}
+.image-content  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position:absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(10%, -42% )  ;
+    /* z-index: 2; */
+
+}
+.image-content h3{
+    display: block;
+    font-size: 2.7rem;
+    font-weight: 600;
+    /* margin-bottom: -3rem; */
+    color:#000000;
+    /* text-shadow: rgba(0, 0, 0, 0.308) 2px 2px; */
+    
+    
+}
+.image-content span ,.image-content h1{
+    margin-top: 0.5rem;
+
+    color: rgb(253, 58, 32);
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    /* text-shadow: rgba(56, 56, 56, 0.308) 1px 2px 1px; */
+    
+}
+.image-content p{
+
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.related span li{
+    list-style: disc;
+    color: #009de0;
+    font-size: 1.6;
+    padding-bottom: 0.3rem;
+    font-weight: 400;
+}
+.related{
+    margin-top: 1rem;
+}
+
+.button a:hover{
+    color: #000;
+    background-color: #009de0;
+}
+
+.button .enroll{
+    margin-left: 18rem;
+}
+
+
+.cr7{
+    display: flex;
+    justify-content: space-around;
+}
+.jsr{
+    margin-top: 20.5rem;
+
+}
+.cr7 button{
+    padding: 0.5rem;
+    margin-top: 3rem;
+    background: #ff4600;
+    color: #ffffff;
+    width: 10rem;
+    height: 4rem;
+    outline: none;
+    border: oldlace 2px solid;
+    font-size: 1.8rem;
+    font-weight: 600; 
+    letter-spacing: 0.15rem;
+    border-radius: 1rem;
+
+}
+.cr7 button:hover{
+    background-color: #009de0;
+    color: black;
+}
+.button .enroll{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.button .info{
+    width: 11rem;
+    padding: 0.5rem;
+}
+
+#web-d .container02{
+    margin-top: 20.5rem;
+}
+
+.button a{
+    width: 15rem;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    letter-spacing: 00.2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #ff4600;
+    color: #f4f4f4;
+    text-decoration: none;
+    /* border: orangered 2px solid; */
+}
+  
+.python-q{
+    margin-left: -70rem;
+}
+.web-q{
+    margin-left: -75rem;
+}
+
+
+
+/* ################################# media query ############################################  */
+
+
+
+
+
+  @media only screen and (orientation:portrait){
+        #wrapper {
+        display:none;
+        }
+
+

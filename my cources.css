@@ -1,0 +1,171 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'RocknRoll One', sans-serif;
+    background: url(../images/cover02.png);
+    /* background: rgb(12, 12, 12); */
+    background-repeat:no-repeat;
+    height: 100rem;
+    
+}
+
+html{
+
+    font-size: 62.5%;
+}
+.container1{
+    
+        max-width: 1600px;
+        width: 100%;
+        margin: auto;
+
+}
+
+
+/* #################################  Navbar ###################################### */
+
+.navbar{
+    /* background: url(../images/cover5.jpg); */
+    height:5vh;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    /* position: absolute; */
+
+    width: 152rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li{
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #ff4600;
+    list-style: none #000 ;
+     font-size: 1.5rem;
+     font-weight: 700;
+     padding: 1rem;
+     margin-right: 2rem;
+     transition: all 0.4s ease-in-out;
+
+    
+     
+   
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-top: 1rem;
+   
+}
+.nav-items a:hover{
+    color: #000000;
+    /* border-bottom: #ff6800 2px solid; */
+}
+.navbar h1 img{
+    height: 13rem;
+    width: 13rem;
+    margin-top: -2.5rem;
+}
+
+
+/* -------------------------------------------   login in ..........................................  */
+
+.containerpage .heading{
+
+    font-size: 2rem;
+    position: absolute;
+    margin-top: -6rem;
+    text-shadow: 2px 2px 2px #acacac;
+    
+}
+
+.containerpage{
+    width: 50rem;
+    height: 60rem;
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: 15rem;
+    border-radius: 5rem;
+    
+    background: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px 0px  #a1a1a1;
+}
+.containerpage img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 30%;
+    margin-top: 5rem;
+    border-radius: 100%;
+    border: #e2e2e2 solid 2px;
+    box-shadow: 1px 1px 1px rgb(85, 85, 85);
+}
+
+.containerpage .jsr{
+    height: 5rem;
+    width: 39rem;
+    outline: none;
+    border: oldlace 2px solid;
+    border-radius: 1rem;
+    margin-left: 5rem;
+    box-shadow: 1px 1px 1px rgb(85, 85, 85);
+    padding-left: 3rem;
+    border: 0.0000005rem solid rgb(207, 207, 207) ;
+}
+
+.containerpage label{
+    color: rgb(0, 0, 0);
+    /* font-weight: 1.6rem; */
+    font-size: 1.3rem;
+    font-family:'RocknRoll One', sans-serif; 
+}
+.containerpage .forget {
+    margin-top: 1rem;
+     margin-left: 34rem;
+   
+     
+}
+.forget a{
+    color: rgb(0, 147, 245);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+}
+.forget a:hover{
+    color: rgb(0, 0, 0);
+}
+.container6 button{
+    width: 10rem;
+    height: 4rem;
+    margin-left: 20%;
+    margin-top: 2rem;
+    font-family: 'RocknRoll One', sans-serif;
+    outline: none;
+    border-radius: 1rem;
+    border: oldlace;
+    box-shadow:  2px 2px 2px #a1a1a1;
+
+}
+.container6 .login-btn{
+    background-color: #fa5a20;
+    color: aliceblue;
+}
+.container6 .signup-btn{
+    background-color: #009de0;
+    color: aliceblue;
+}
+.container6 .login-btn:hover{
+    background-color: #ff4600;
+}
+.container6 .signup-btn:hover{
+    background-color: #0074e0;
+}

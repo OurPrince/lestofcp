@@ -1,0 +1,209 @@
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'RocknRoll One', sans-serif;
+    background: url(../images/cover5.jpg);
+    /* background: rgb(12, 12, 12); */
+    background-repeat:no-repeat;
+    
+}
+
+html{
+
+    font-size: 62.5%;
+}
+.container1{
+    
+        max-width: 1600px;
+        width: 100%;
+        margin: auto;
+
+}
+
+
+/* #################################  Navbar ###################################### */
+
+.navbar{
+    background: url(../images/cover5.jpg);
+    height:160vh;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    /* position: absolute; */
+
+    width: 152rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li{
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #ff4600;
+    list-style: none #000 ;
+     font-size: 1.5rem;
+     font-weight: 700;
+     padding: 1rem;
+     margin-right: 2rem;
+     transition: all 0.4s ease-in-out;
+
+    
+     
+   
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-top: 1rem;
+   
+}
+.nav-items a:hover{
+    color: #000000;
+    /* border-bottom: #ff6800 2px solid; */
+}
+.navbar h1 img{
+    height: 13rem;
+    width: 13rem;
+    margin-top: -2.5rem;
+}
+
+/* __________________________________________________________________________________________________ */
+
+
+
+
+input[type=text], select, textarea {
+    outline: none;
+    /* border: rgb(0, 0, 0) solid 5rem; */
+    color: #000000;
+    /* position: absolute; */
+    /* width: 60rem; Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(255, 255, 255); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  label{
+      color: #000000;
+      padding-right: 3rem;
+      font-size: 1.6rem;
+      
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+      color: rgb(0, 0, 0);
+      background-color: #009de0;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 40rem;
+      font-family:'RocknRoll One', sans-serif ;
+      font-weight: 600;
+      font-size: 1.5rem;
+      transition: all 0.2s ease-in-out;
+      outline: none;
+      border: oldlace solid 2px;
+    }
+    
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #ff4600;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+      /* width: 50%; */
+      position: absolute;
+    /* border-radius: 5px; */
+    background-color: #ffffff77;
+    margin-left: 46rem;
+    margin-top: -90rem;
+    padding: 60px;
+    border-radius: 5rem;
+  }
+
+  .box{
+      margin-left: 13rem;
+      width: 40rem ;
+      height: 12rem;
+      margin-top: -2rem;
+  }
+  .box1{
+      height: 4rem ;
+      width: 40rem;
+  }
+  .email{
+      margin-left: 4rem;
+  }
+  .City{
+      margin-left: 5rem;
+  }
+  .co{
+      margin-left: 2rem;
+  }
+
+  .heading h1{
+      font-size: 2.8rem;
+      color: #000000;
+      position: absolute;
+      margin-top: -100rem;
+      margin-left: 45rem;
+      /* border-bottom: 0.3rem solid #ff4600; */
+      transition:  0.2s ease-in-out;
+      
+
+
+
+  }
+  .heading h1:hover{
+      width: 60%;
+      color:#fc642d;
+  }
+
+
+  #footer{
+    display: flex;
+    position: relative;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 3rem;
+    color: #000000;
+    background-color: #00000000;
+    margin-top: -10rem;
+    
+
+}
+#footer img{
+    height: 4rem;
+    width: 11.5rem;
+}
+
+.line{
+    border-bottom: #f4f4f4 2px solid;
+    padding: 1rem;
+}
+
+.sm{
+    padding: 1rem;
+    color: rgb(247, 78, 0);
+}
+  

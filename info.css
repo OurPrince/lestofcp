@@ -1,0 +1,175 @@
+.info-container{
+  background: #ffffff;
+  z-index: 40;
+  position: fixed;
+  right: 30rem;
+  width: 90rem;
+  top: 0rem;
+  height: 80rem;
+  
+}
+.info-container .img-cources img{
+
+  height: 40rem;
+  width: 40rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.img-cources .info-1 h3{
+  font-size: 4rem;
+  color:#000;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-cources .info-1 h1 {
+  font-size: 1.6rem;
+  color: #ff0000;
+  margin-left: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.img-cources{
+  display: flex;
+  background: rgb(236, 235, 235);
+  margin-top: 3rem;
+}
+.img-cources button{
+
+  padding: 1rem;
+  background-color: #ff4600;
+  font-size: 1.8rem;
+  margin-left: 28rem;
+  margin-top: 7rem;
+margin-bottom: 2rem;
+  border: oldlace solid 3px;
+  padding-bottom: 3.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  outline: none;
+  font-weight: 600;
+  border-radius: 1rem;
+  width: 18rem;
+  color:#fff ;
+  transition: all 0.4s ease-in-out;
+  
+}
+.img-cources  button:hover{
+  background-color: #009de0;
+  color: #000;
+}
+.img-cources .info-1 h4{
+font-size: 1.6rem;
+font-weight: 600;
+margin-left: 3rem ;
+margin-top: 4rem;
+
+}
+.img-cources .info-1 .related li{
+
+  margin-left: 6rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  list-style: disc;
+
+}
+.info-container .spet li{
+
+  font-size: 1.4rem;
+  padding-bottom: 0.8rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 300;
+  word-spacing: 0.8px;
+  letter-spacing: 0.1px;
+  
+  
+
+}
+.info-container .spet{
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  width: 80rem;
+  /* padding-bottom: rem; */
+
+}
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000000000000000000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100rem; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.901); /* Black w/ opacity */
+  padding-top: 60px;
+
+}
+.wywl{
+ margin-left: 3rem;
+ margin-top: 1rem ;
+
+}
+.wywl li{
+  font-size: 1.4rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  list-style: disc;
+
+}
+h5{
+  margin-left: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ff4600;
+}
+h5 span{
+  color: #009de0;
+}
+
+.container6 button{
+
+  padding: 1rem;
+  background-color: #ff4600;
+  font-size: 1.8rem;
+  margin-left: 15rem;
+  /* margin-top: 7rem; */
+/* margin-bottom: 2rem; */
+  border: oldlace solid 3px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  outline: none;
+  font-weight: 600;
+  border-radius: 1rem;
+  width: 10rem;
+  color:#fff ;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.2s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}  
